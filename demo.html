@@ -5,10 +5,22 @@
 	<title>Document</title>
 	<script src="drag.js"></script>
 	<style>
+		body{
+			margin: 0;
+			padding: 0;
+		}
+		#demo{
+			width: 100px;
+			height: 100px;
+			background: red;
+			position: absolute;
+		}
 	</style>
 </head>
 <body>
 	<div id="demo"></div>
-	<div></div>
+	<script>
+		drag("demo");
+	</script>
 </body>
 </html>
